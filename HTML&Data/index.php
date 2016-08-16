@@ -1,22 +1,14 @@
 <?php
-    //Тази променлива е само за да слагаме брейкпоинт. Тя не прави нищо.
-    /*
-     * Колоната в таблицата х се променя от 0 на 1 когато колоната з има стойност
-     * три
-     * или
-     * повече
-     */
-    #This is a comment too
-    $variable = 0;
+$variable = 0;
 ?>
 <!doctype html>
 <html>
-    <head>
-        <META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>Заглавие на моята страница</title>
-    </head>
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Заглавие на моята страница</title>
+</head>
 <body>
-    <h2>Избор на филтър</h2>
+<h2>Избор на филтър</h2>
 <form method="post" action="ReceiveOrder.php" enctype="multipart/form-data">
     <label for="amount">Филтрирай по колона amount</label>
     <input type="checkbox" name="amount" id="amount"/><br/>
